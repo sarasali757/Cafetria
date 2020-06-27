@@ -1,0 +1,35 @@
+.mat-badge-content {
+    width: auto;
+   /* display: grid; */
+    min-width: 32px;
+    min-height: 28px;/* 
+    text-align: center;
+    align-items: center; */
+    padding: 5px 3px;
+    /* top: -20px;
+    right: -22px; */
+}
+.mat-icon-button {
+    padding: 0;
+    min-width: 0;
+    width: fit-content;
+    height: fit-content;
+    flex-shrink: 0;
+    line-height: 0px;
+    border-radius: 50%;
+}
+.mat-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button {
+    line-height: 0px;
+}
+
+.mat-divider {
+    border-top-color: black;
+    border-top-width: 2px;
+}
+
+.mat-form-field label {
+    font-size: 25px;
+  }
+  .mat-form-field.mat-form-field-should-float label {
+    font-size: 13px;
+  }  

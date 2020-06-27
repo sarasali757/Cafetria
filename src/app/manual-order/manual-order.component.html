@@ -1,0 +1,126 @@
+<div class="row m-0">
+
+    <div class="col-lg-4 border border-dark pt-5 px-5">
+
+        <!-- products -->
+        <div>
+            <!-- table -->
+            <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                      <!-- product Name -->
+                    <th scope="row" class="pt-4">
+                        <label for="">Tea</label> 
+                    </th>
+                    <!-- number of items -->
+                    <td class="py-0">
+                        <mat-form-field appearance="legacy" style="width: 40px;"   >
+                            <input type="number" matInput value="1" >
+                        </mat-form-field>
+                    </td>
+                    <!-- Add Remove  -->
+                    <td>
+                        <div class="btn-group-vertical  btn-group-sm">
+                            <a mat-icon-button aria-label="Example icon-button with a heart icon">
+                                <mat-icon style="font-size: 14px;">add</mat-icon>
+                            </a>   
+                            <a mat-icon-button aria-label="Example icon-button with a heart icon">
+                                <mat-icon style="font-size: 14px;">remove</mat-icon>
+                            </a>   
+                        </div>
+                    </td>
+                    <!--  items Price-->
+                    <td class="pt-4">
+                        <div style="display: inline;">  
+                            <label class="px-1" style="font-size: 18px;">EGP </label> 
+                            <label style="font-size: 18px;">55 </label>
+                        </div>
+                    </td>
+                    <!-- Clear -->
+                    <td class="pt-4">  
+                
+                        <button mat-icon-button aria-label="Example icon-button with a heart icon">
+                            <mat-icon matSuffix>clear</mat-icon>
+                        </button> 
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- note -->
+        <div align ="center" class="my-3">
+            <mat-form-field appearance="legacy"  style="width: 350px;">
+                <mat-label>Notes </mat-label>
+                <textarea matInput rows="6"  placeholder="Comment" >
+                </textarea>       
+            </mat-form-field> 
+        </div>
+        <!--  -->
+        <mat-divider></mat-divider>
+
+        <!-- total -->
+        <div align ="right" class="mt-5">
+            <label class="px-1" style="font-size: 18px;"><strong>EGP</strong> </label> 
+            <label style="font-size: 18px;"><strong>55</strong> </label>
+        </div>
+        <!-- confirm btn -->
+        <div class=" my-4" align ="right">
+            <button mat-raised-button color="primary">Confirm</button>
+        </div>
+        <!--  -->
+    </div>
+
+    <!--  -->
+    <div class="col-lg-8  px-5">
+
+        <!-- Search -->
+        <div align ="right">
+            <mat-form-field appearance="legacy" style="width: 250px;">
+                <mat-label>Search 
+                </mat-label>
+                <input matInput >
+                <mat-icon matSuffix>search</mat-icon>
+            </mat-form-field>
+        </div>
+
+       <!-- Choose User -->
+       <div align ="center">
+        <mat-form-field>
+            <mat-label>User</mat-label>
+            <mat-select required>
+              <mat-option value="volvo">
+                  1
+              </mat-option>
+              <mat-option value="volvo">
+                2
+            </mat-option>
+            </mat-select>
+          </mat-form-field>
+       </div>
+        <!--  -->
+       <mat-divider></mat-divider>
+       
+       <!-- grid -->
+
+       <mat-grid-list cols="4" rowHeight="2:1">
+        <mat-grid-tile>
+            <div matBadge="7 LE" class="" matBadgeOverlap="false" >
+                <img src="../../assets/logo.jpg"  class="rounded mx-auto d-block" width="70px"
+                 class="d-inline-block align-top" alt="">
+            </div>
+        </mat-grid-tile>
+
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+
+        <mat-grid-tile>1</mat-grid-tile>
+        <mat-grid-tile>2</mat-grid-tile>
+        <mat-grid-tile>3</mat-grid-tile>
+        <mat-grid-tile>4</mat-grid-tile>
+      </mat-grid-list>
+
+      <!--  -->
+    </div>
+</div>

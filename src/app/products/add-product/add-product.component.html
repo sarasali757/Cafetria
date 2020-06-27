@@ -1,0 +1,35 @@
+<h2>Add Product</h2>
+
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Product</mat-label>
+      <input matInput >
+      <mat-hint>Tea</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" style="width: 100px;">
+        <mat-label>Price</mat-label>
+        <input type="number" matInput >
+        <span matSuffix>EGP &nbsp;</span>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Category</mat-label>
+        <mat-select>
+          <mat-option  value="1">
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <a href="" class="mt-2">Add Category</a>
+
+    <section>
+        <div class="example-button-row">
+          <button mat-flat-button color="primary" class="example-full-width" matTooltip="Browse">Product Picture</button>
+        </div>
+    </section>
+
+    <section class="pt-5 pl-5 ml-5" >
+        <button mat-raised-button color="primary" class="mr-3">Save</button>
+        <button mat-raised-button color="primary" class="ml-3">Reset</button>
+    </section>
+</form>

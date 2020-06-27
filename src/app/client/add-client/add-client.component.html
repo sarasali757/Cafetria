@@ -1,0 +1,46 @@
+<h2>Add Product</h2>
+
+<form class="example-form">
+    <table class="example-full-width" cellspacing="0">
+        <tr>
+        <td>
+            <mat-form-field class="example-full-width">
+                <mat-label>First name</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </td>
+        <td>
+            <mat-form-field class="example-full-width">
+                <mat-label>Last Name</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-label>Confirm Password</mat-label>
+        <input type="password" matInput>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" >
+        <mat-label>Email</mat-label>
+        <input type="email" matInput placeholder="Ex. example@domain.com">
+        <span matPrefix>@ &nbsp;</span>
+    </mat-form-field>
+
+    <section>
+        <div class="example-button-row">
+          <button mat-flat-button color="primary" class="example-full-width" matTooltip="Browse">Profile Picture</button>
+        </div>
+    </section>
+
+    <section class="pt-5 pl-5 ml-5" >
+        <button mat-raised-button color="primary" class="mr-3">Save</button>
+        <button mat-raised-button color="primary" class="ml-3">Reset</button>
+    </section>
+</form>
